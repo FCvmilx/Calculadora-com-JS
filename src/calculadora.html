@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div id="calc" class="calculadora">
+        <div class="display">0</div>
+        
+        <div id="keys" class="keys">
+            <button data-action="clear">AC</button>
+            <button class="key--operator" data-action="divisao">&#247</button>
+            <button class="key--operator" data-action="multiplicacao">&#215</button>
+            <button data-action="backspace"><img src="../img/318218.png" class="backspace"></button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="key--operator" data-action="subtracao">-</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="key--operator" data-action="adicao">+</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="key--enter" data-action="calculate" style="grid-row: 4 / span 2; grid-column: 4; height: 220px;"><img src="../img/enter.png" class="backspace"></button>
+            <button style="grid-column: 1 / span 2; width: 220px;">0</button>
+            <button data-action="decimal">.</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
