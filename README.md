@@ -8,4 +8,4 @@ How to build a calculator—part 2
 Published:Mar 28, 2018
 Autoria de Zell Liew
 
-src/calculadora.html
+https://github.com/FCvmilx/Calculadora-com-JS/tree/a631c267c587aa34a1693d8de67f6852989f713f/src
