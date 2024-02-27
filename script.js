@@ -75,7 +75,13 @@ keys.addEventListener('click', e => {
             calculator.dataset.firstValue = calcValue
         }
         else {
-            calculator.dataset.firstValue = displayedNum
+            if (previousKeyType === 'operator') {
+                calculator.dataset.operator = action
+            }
+            else {
+
+                calculator.dataset.firstValue = displayedNum
+            }
         }
         
         
